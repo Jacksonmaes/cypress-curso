@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:open": "cypress open"
   },
   "author": "Jackson Moraes",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.1",
+    "eslint-plugin-cypress": "^3.4.0"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.2"
+  }
 }
